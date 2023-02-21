@@ -3,8 +3,8 @@ const { KakaoApiService, KakaoLinkClient } = require('kakaolink')
 const Kakao = new KakaoLinkClient();
 
 KakaoApiService.createService().login({
-  email: 'hjlee@bluedata.kr',
-  password: 'dlghwjd123!!!',
+  email: 'ID',
+  password: 'PW',
   keepLogin: true,
 }).then(e => {
   Kakao.login(e, {
