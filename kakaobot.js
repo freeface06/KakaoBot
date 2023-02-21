@@ -3,7 +3,7 @@ const kakao = new KakaoLinkClient(
   "ed6fdb7fc987bcf0f48ef46425f0ac0e",
   "https://loawa.com"
 );
-kakao.login("hjlee@bluedata.kr", "dlghwjd123!!!");
+kakao.login("ID", "PW");
 
 let 영업 = "OFF";
 
