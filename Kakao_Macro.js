@@ -1,6 +1,6 @@
 const { KakaoLinkClient } = require("KakaoLink");
 const kakao = new KakaoLinkClient("d7034bc4d1255eddebae4399d0e95d67", "https://loawa.com");
-kakao.login("hjlee@bluedata.kr", "dlghwjd123!!!");
+kakao.login("ID", "PW");
 
 Utils.getWeather = function (pos) {
   try {
